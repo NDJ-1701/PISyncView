@@ -13,7 +13,7 @@ To Do:
 > add horizontal scrollbar when window width is insufficient to display all flows
 > add horizontal scrollbar when flow text contents is wider than flow display
 > add ability to search the text area
-> filter tool info sections so that only 
+> filter tool info sections so that only TGs belonging to flow are printed.
 > add button to collapse tool information
 	add ability to uncollapse individual tool infos
 	indent or prefix & highlight values that changed (show previous value as well? Keep changes visible when the rest is hidden?)
