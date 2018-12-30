@@ -7,25 +7,25 @@ This is similar to a text difference viewer, except that lines are matched by ti
 
 ~~~~~~~~~~~~~~~~~~~~~~~~
 To Do:
-> remove information about other flows from steps
-> add background color to operations (different color for each operation)
-> add default maximum window width
-> add horizontal scrollbar when window width is insufficient to display all flows
-> add horizontal scrollbar when flow text contents is wider than flow display
-> add ability to search the text area
-> filter tool info sections so that only TGs belonging to flow are printed.
-> add button to collapse tool information
-	add ability to uncollapse individual tool infos
-	indent or prefix & highlight values that changed (show previous value as well? Keep changes visible when the rest is hidden?)
-> add button to collapse axis information
-	add ability to uncollapse indivisual axis infos
-	indent or prefix & highlight values that changed (show previous value as well? Keep changes visible when the rest is hidden?)
+> hide the console and/or embed it as part of the main dialog window (toggle to view it with button?).
+> add ability to stretch the window in width, not just length
+> add scrollbars to each flow that control only their flow, and that when used break any other view synchronization
+> add timeline viewer with blocks representing operations
+	add a line to the timeline representing current cursor position, or perhaps current visible position
 > align tops of steps with same numbers (they will always have the same time) when they are in the center of the screen
 	this is for lack of a better initial concept on how to align until a prototype can be played with.
 > add highlight line between steps in a single flow (not a hightlighted text line, but a line of highlight between two lines)
 	add margin between two flows
 		add lines to margin which connect highlight lines between flows
-> add timeline viewer with blocks representing operations
-	add a line to the timeline representing current cursor position, or perhaps current visible position
-> hide the console and/or make it part of the main dialog window.
+> add background color to operations? (different color for each operation? alternating color?)
+> add default maximum window width & length or automatic maximize
+> add horizontal scrollbar when window width is insufficient to display all flows
+> add horizontal scrollbar when flow text contents is wider than flow display
+> add ability to search the text areas
+> filter tool info sections so that only TGs belonging to flow are printed.
+> add button to collapse tool information
+	indent or prefix & highlight values that changed (show previous value as well? Keep changes visible when the rest is hidden?)
+> add button to collapse axis information
+	indent or prefix & highlight values that changed (show previous value as well? Keep changes visible when the rest is hidden?)
 > add command line argument to point toward path of input dump file.
+> translate things like "ctool" and "feature #" etc into plain english. This is maybe done via the PIReport sln tho.
